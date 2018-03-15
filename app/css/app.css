@@ -6325,7 +6325,9 @@ footer {
       font-size: 1rem; }
   footer .right {
     padding: 0 !important; }
-    footer .right .main {
+    footer .right a {
+      color: #8d8d8d; }
+    footer .right .main a {
       color: #ee2211; }
     footer .right .category {
       font-size: .9rem;

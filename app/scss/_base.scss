@@ -375,9 +375,12 @@ footer{
             font-size: 1rem;
         }
     }
-    .right{
+    .right{ 
+        a{
+            color: $gray-bold;
+        }
         padding: 0 !important;
-        .main{
+        .main a{
             color: $primary-red;
         }
         .category{
