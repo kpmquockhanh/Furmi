@@ -2,10 +2,10 @@
 @import "functions";
 @import "variables";
 // Mixin
-@import "mixins";
+// @import "mixins";
 @import "mixins/breakpoints";
 @import "mixins/hover";
-@import "mixins/image";
+// @import "mixins/image";
 @import "mixins/badge";
 @import "mixins/resize";
 @import "mixins/screen-reader";
@@ -44,34 +44,34 @@
 
 @import "root";
 @import "reboot";
-@import "type";
-@import "images";
-@import "code";
+// @import "type";
+// @import "images";
+// @import "code";
 @import "grid";
-@import "tables";
-@import "forms";
+// @import "tables";
+// @import "forms";
 @import "buttons";
 @import "transitions";
 @import "dropdown";
-@import "button-group";
-@import "input-group";
-@import "custom-forms";
+// @import "button-group";
+// @import "input-group";
+// @import "custom-forms";
 @import "nav";
 @import "navbar";
 @import "card";
-@import "breadcrumb";
-@import "pagination";
+// @import "breadcrumb";
+// @import "pagination";
 @import "badge";
 @import "jumbotron";
-@import "alert";
+// @import "alert";
 @import "progress";
-@import "media";
+// @import "media";
 @import "list-group";
 @import "close";
-@import "modal";
-@import "tooltip";
-@import "popover";
-@import "carousel";
+// @import "modal";
+// @import "tooltip";
+// @import "popover";
+// @import "carousel";
 // Utilities
 // @import "utilities";
 // Utilities
@@ -80,7 +80,7 @@
 @import "utilities/borders";
 @import "utilities/clearfix";
 @import "utilities/display";
-@import "utilities/embed";
+// @import "utilities/embed";
 @import "utilities/flex";
 @import "utilities/float";
 @import "utilities/position";
