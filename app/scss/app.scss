@@ -8,24 +8,24 @@
 // @import "mixins/image";
 @import "mixins/badge";
 @import "mixins/resize";
-@import "mixins/screen-reader";
+// @import "mixins/screen-reader";
 @import "mixins/size";
 @import "mixins/reset-text";
 @import "mixins/text-emphasis";
 @import "mixins/text-hide";
 @import "mixins/text-truncate";
-@import "mixins/visibility";
+// @import "mixins/visibility";
 
 // // Components
-@import "mixins/alert";
+// @import "mixins/alert";
 @import "mixins/buttons";
-@import "mixins/caret";
-@import "mixins/pagination";
+// @import "mixins/caret";
+// @import "mixins/pagination";
 @import "mixins/lists";
 @import "mixins/list-group";
 @import "mixins/nav-divider";
-@import "mixins/forms";
-@import "mixins/table-row";
+// @import "mixins/forms";
+// @import "mixins/table-row";
 
 // // Skins
 @import "mixins/background-variant";
@@ -35,14 +35,14 @@
 @import "mixins/transition";
 
 // // Layout
-@import "mixins/clearfix";
-@import "mixins/navbar-align";
+// @import "mixins/clearfix";
+// @import "mixins/navbar-align";
 @import "mixins/grid-framework";
 @import "mixins/grid";
-@import "mixins/float";
+// @import "mixins/float";
 // Mixin
 
-@import "root";
+// @import "root";
 @import "reboot";
 // @import "type";
 // @import "images";
@@ -51,12 +51,12 @@
 // @import "tables";
 // @import "forms";
 @import "buttons";
-@import "transitions";
-@import "dropdown";
+// @import "transitions";
+// @import "dropdown";
 // @import "button-group";
 // @import "input-group";
 // @import "custom-forms";
-@import "nav";
+// @import "nav";
 @import "navbar";
 @import "card";
 // @import "breadcrumb";
@@ -75,20 +75,20 @@
 // Utilities
 // @import "utilities";
 // Utilities
-@import "utilities/align";
-@import "utilities/background";
+// @import "utilities/align";
+// @import "utilities/background";
 @import "utilities/borders";
-@import "utilities/clearfix";
+// @import "utilities/clearfix";
 @import "utilities/display";
 // @import "utilities/embed";
 @import "utilities/flex";
-@import "utilities/float";
-@import "utilities/position";
-@import "utilities/screenreaders";
+// @import "utilities/float";
+// @import "utilities/position";
+// @import "utilities/screenreaders";
 @import "utilities/sizing";
 @import "utilities/spacing";
 @import "utilities/text";
-@import "utilities/visibility";
+// @import "utilities/visibility";
 
 // ---------
 @import "print";

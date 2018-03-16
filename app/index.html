@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- jquery -->
     <!-- <link rel="stylesheet" href="js/jquery/jquery-2.2.4.min.js"> -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
     <!-- Custom style -->
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <div id="fb-root"></div>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+  
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.12&appId=242694382823728&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
 </head>
 <body>
     <header>
@@ -38,114 +49,119 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light border border-bottom-0 border-left-0 border-right-0">
         <div class="container px-3">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-    <ul id="menu" class="navbar-nav">
-      <li class="nav-item active">
-            <a href="">Nội thất</a>
-            <hr>
-        </li>
-        <li class="nav-item">
-            <a href="">Ngoại thất</a>
-            <hr>
-        </li>
-        <li class="nav-item">
-            <a href="">Phòng ăn</a>
-            <hr>
-        </li>
-        <li class="nav-item">
-            <a href="">Phòng tắm</a>
-            <hr>
-        </li>
-        <li class="nav-item">
-            <a href="">Bể bơi</a>
-            <hr>
-        </li>
-        <li class="nav-item">
-            <a href="">Văn phòng</a>
-            <hr>
-        </li>
-        <li class="nav-item">
-            <a href="">Cửa hàng</a>
-            <hr>
-        </li>
-    </ul>
-  </div>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul id="menu" class="navbar-nav w-100 justify-content-around px-lg-5">
+                  <li class="nav-item active">
+                    <a href="">Nội thất</a>
+                    <hr>
+                </li>
+                <li class="nav-item">
+                    <a href="">Ngoại thất</a>
+                    <hr>
+                </li>
+                <li class="nav-item">
+                    <a href="">Phòng ăn</a>
+                    <hr>
+                </li>
+                <li class="nav-item">
+                    <a href="">Phòng tắm</a>
+                    <hr>
+                </li>
+                <li class="nav-item">
+                    <a href="">Bể bơi</a>
+                    <hr>
+                </li>
+                <li class="nav-item">
+                    <a href="">Văn phòng</a>
+                    <hr>
+                </li>
+                <li class="nav-item">
+                    <a href="">Cửa hàng</a>
+                    <hr>
+                </li>
+            </ul>
         </div>
-  
+    </div>
+
 </nav>
-    <section id="banner" class="d-flex justify-content-center align-items-center">
-        <div class="boxtitle container">
-            <div class="title text-uppercase">oto bmw i8 phiên bản mới</div>
-            <div class="tree text-uppercase mt-4">trang chủ/ model/ nội thất/ oto bmw i8 phiên bản mới</div>
-        </div>  
-    </section>
-    <section id="content" class="jumbotron">
-        <div class="container">
-            <div class="row m-0">
-                <div id="lightbox" class="dflex align-items-center col-lg-8 row m-0">
-                    <ul class="list col-lg-2 align-items-center align-self-center">
-                        <!-- list img -->
-                        <li class="fa fa-angle-up"></li>
-                        <!-- 79x67 -->
-                        <li class="active"><img src="img/Layer 13.png" alt=""></li>
-                        <li><img src="img/Layer 13.png" alt=""></li>
-                        <li><img src="img/Layer 13.png" alt=""></li>
-                        <li><img src="img/Layer 13.png" alt=""></li>
-                        <li class="fa fa-angle-down"></li>
-                    </ul>
-                    <img src="img/Layer 2.png" alt="" class="img-content col-lg-10 ">
-                    <img src="img/Layer 7.png" alt="" id="zoom">
+<section id="banner" class="d-flex justify-content-center align-items-center">
+    <div class="boxtitle container">
+        <div class="title text-uppercase">oto bmw i8 phiên bản mới</div>
+        <div class="tree text-uppercase mt-4">trang chủ/ model/ nội thất/ oto bmw i8 phiên bản mới</div>
+    </div>  
+</section>
+<section id="content" class="jumbotron m-0 pb-0">
+    <div class="container">
+        <div class="row m-0">
+            <div id="lightbox" class="dflex align-items-center col-lg-8 row m-0">
+                <ul class="list col-lg-2 align-items-center align-self-center">
+                    <!-- list img -->
+                    <li class="fa fa-angle-up"></li>
+                    <!-- 79x67 -->
+                    <li class="active"><img src="img/Layer 13.png" alt=""></li>
+                    <li><img src="img/Layer 13.png" alt=""></li>
+                    <li><img src="img/Layer 13.png" alt=""></li>
+                    <li><img src="img/Layer 13.png" alt=""></li>
+                    <li class="fa fa-angle-down"></li>
+                </ul>
+                <img src="img/Layer 2.png" alt="" class="img-content col-lg-10 ">
+                <img src="img/Layer 7.png" alt="" id="zoom">
+            </div>
+            <div class="left-content col-lg-4">
+
+                <div class=" d-flex align-items-center">
+                    <div class="fb-like d-flex align-items-center" style="margin-right: 4px;" data-href="https://facebook.com/kpmquockhanh" data-layout="button" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                    <div class="g-plusone" data-size="small"></div>
                 </div>
-                <div class="left-content col-lg-4">
-                    <div id="social" class="">
-                        <img src="img/social.png" alt="">
-                    </div>
-                    <div id="info">
-                        <img src="img/ava.png" alt="" class="float-left">
-                        <div class="name font-weight-bold d-flex align-self-center">Nguyễn Thành Nam</div>
-                        <div class="clearfix"></div>
-                        <div class="quote">Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này </div>
-                        <div class="statistics d-flex justify-content-around">
-                            <div class="com">
-                                <div class="num">138</div>
-                                <img src="img/Image 2.png" alt="" class="icon">
-                            </div>
-                            <div class="com">
-                                <div class="num">369</div>
-                                <img src="img/Eye.png" alt="" class="icon">
-                            </div>
-                            <div class="com">
-                                <div class="num">369</div>
-                                <img src="img/Inbox.png" alt="" class="icon">
-                            </div>
+
+
+                <div id="info" class="mt-2 row m-0">
+                    <img src="img/ava.png" alt="" class="">
+                    <div class="name font-weight-bold d-flex align-self-center">Nguyễn Thành Nam</div>
+                    <div class="clearfix"></div>
+                    <div class="quote">Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này </div>
+                    <div class="statistics d-flex justify-content-around text-center">
+                        <div class="com">
+                            <div class="num">138</div>
+                            <img src="img/Image 2.png" alt="" class="icon">
                         </div>
-                        <div id="cost">1.500đ</div>
-                        <button class="btn btn-danger">TẢI VỀ</button>
+                        <div class="com">
+                            <div class="num">369</div>
+                            <img src="img/Eye.png" alt="" class="icon">
+                        </div>
+                        <div class="com">
+                            <div class="num">369</div>
+                            <img src="img/Inbox.png" alt="" class="icon">
+                        </div>
                     </div>
+                    <div id="cost">1.500đ</div>
+                    <button class="btn btn-danger">TẢI VỀ</button>
                 </div>
             </div>
         </div>
-    </section>
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row m-0">
-                <section class="description">
-                    <div class="row m-0">
-                        <div class="col-lg-8 des">
-                           <div class="des-title ml-2 mt-4">Mô tả</div>
-                           <div class="des-content ml-2 mb-4">
-                            Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này  Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này
-                        </div>
-                        <div class="des-content ml-2 mb-2">
+    </div>
+</section>
+<div class="jumbotron m-0 pb-0">
+    <div class="container">
+        <div class="row m-0">
+            <section class="description">
+                <div class="row m-0">
+                    <div class="col-lg-8 des">
+                     <div class="des-title ml-2 mt-4">Mô tả</div>
+                     <div class="des-content ml-2 mb-4">
+                        Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này  Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này
+                    </div>
+                    <div class="des-content ml-2 mb-2">
 
-                            Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này  Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này  Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này 
-                        </div>
-                        <hr>
-                        <div class="facebook-comments">
+                        Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này  Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này  Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này Mô tả ngắn  tại đây về những điều liên quan tới sản phẩm này 
+                    </div>
+                    <hr>
+                    <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="2"></div>
+                        <!-- <div class="facebook-comments">
                             <img src="img/fb.png" alt="">
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-lg-4 p-0">
                         <section class="tags">
@@ -168,107 +184,105 @@
     </div>
 </div>
 </section>
-<section id="related" class="jumbotron">
+<section id="related" class="jumbotron pb-0 m-0 pb-lg-5">
     <div class="container">
-        <div class="title">
+        <div class="title-related">
             SẢN PHẨM LIÊN QUAN
         </div>
         <div style="position: relative;">
-           <hr class="red">
-           <hr>
-           
-       </div>
-       <div class="card-group text-uppercase text-center">
-          <div class="card">
-            <div class="card-img-overlay text-left"><span class="badge badge-danger clearfix">News</span>
-            </div>
-            <div class="img-card d-flex">
-                <img class="card-img-top w-100 align-self-center" src="img/Layer 11.png" alt="Card image cap">
-            </div>
-            <div class="title">
-                <div class="card-body">
-                    <h6 class="card-cost">150.000</h6>
-                    <h5 class="card-title">Gấu con đáng yêu</h5>
-                    <div class="d-flex justify-content-around">
-                        <span class="value">
-                            <img src="img/Eye.png" alt="">
-                            <span>111</span>
-                        </span>
-                        <span class="value">
-                            <img src="img/Eye.png" alt="">
-                            <span>344</span>
-                        </span>
-                    </div>
-                </div>
-            </div>
+         <hr class="red">   
+     </div>
+     <div class="card-group text-uppercase text-center">
+      <div class="card">
+        <div class="card-img-overlay text-left"><span class="badge badge-danger clearfix">News</span>
         </div>
-        <div class="card">
-            <div class="img-card d-flex">
-                <img class="card-img-top w-100 align-self-center" src="img/Layer 12.png" alt="Card image cap">
-            </div>
-            <div class="title">
-                <div class="card-body">
-                    <h6 class="card-cost free">MIỄN PHÍ</h6>
-                    <h5 class="card-title">Gấu con đáng yêu</h5>
-                    <div class="d-flex justify-content-around">
-                        <span class="value">
-                            <img src="img/Eye.png" alt="">
-                            <span>111</span>
-                        </span>
-                        <span class="value">
-                            <img src="img/Eye.png" alt="">
-                            <span>344</span>
-                        </span>
-                    </div>
-                </div>
-            </div>
-
+        <div class="img-card d-flex">
+            <img class="card-img-top w-100 align-self-center" src="img/Layer 11.png" alt="Card image cap">
         </div>
-        <div class="card">
-            <div class="img-card d-flex">
-                <img class="card-img-top w-100 align-self-center" src="img/Layer 13.png" alt="Card image cap">
-            </div>
-            <div class="title">
-                <div class="card-body">
-                    <h6 class="card-cost">150.000</h6>
-                    <h5 class="card-title">Gấu con đáng yêu</h5>
-                    <div class="d-flex justify-content-around">
-                        <span class="value">
-                            <img src="img/Eye.png" alt="">
-                            <span>111</span>
-                        </span>
-                        <span class="value">
-                            <img src="img/Eye.png" alt="">
-                            <span>344</span>
-                        </span>
-                    </div>
+        <div class="title">
+            <div class="card-body">
+                <div class="card-cost">150.000</div>
+                <div class="card-title">Gấu con đáng yêu</div>
+                <div class="d-flex justify-content-around">
+                    <span class="value">
+                        <img src="img/Eye.png" alt="">
+                        <span>111</span>
+                    </span>
+                    <span class="value">
+                        <img src="img/Eye.png" alt="">
+                        <span>344</span>
+                    </span>
                 </div>
             </div>
-
-        </div>
-        <div class="card">
-            <div class="img-card d-flex">
-                <img class="card-img-top w-100 align-self-center" src="img/Layer 13.png" alt="Card image cap">
-            </div>
-            <div class="title">
-                <div class="card-body">
-                    <h6 class="card-cost">150.000</h6>
-                    <h5 class="card-title">Gấu con đáng yêu</h5>
-                    <div class="d-flex justify-content-around">
-                        <span class="value">
-                            <img src="img/Eye.png" alt="">
-                            <span>111</span>
-                        </span>
-                        <span class="value">
-                            <img src="img/Eye.png" alt="">
-                            <span>344</span>
-                        </span>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
+    <div class="card">
+        <div class="img-card d-flex">
+            <img class="card-img-top w-100 align-self-center" src="img/Layer 12.png" alt="Card image cap">
+        </div>
+        <div class="title">
+            <div class="card-body">
+                <div class="card-cost free">MIỄN PHÍ</div>
+                <div class="card-title">Gấu con đáng yêu</div>
+                <div class="d-flex justify-content-around">
+                    <span class="value">
+                        <img src="img/Eye.png" alt="">
+                        <span>111</span>
+                    </span>
+                    <span class="value">
+                        <img src="img/Eye.png" alt="">
+                        <span>344</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card">
+        <div class="img-card d-flex">
+            <img class="card-img-top w-100 align-self-center" src="img/Layer 13.png" alt="Card image cap">
+        </div>
+        <div class="title">
+            <div class="card-body">
+                <div class="card-cost">150.000</div>
+                <div class="card-title">Gấu con đáng yêu</div>
+                <div class="d-flex justify-content-around">
+                    <span class="value">
+                        <img src="img/Eye.png" alt="">
+                        <span>111</span>
+                    </span>
+                    <span class="value">
+                        <img src="img/Eye.png" alt="">
+                        <span>344</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="card">
+        <div class="img-card d-flex">
+            <img class="card-img-top w-100 align-self-center" src="img/Layer 13.png" alt="Card image cap">
+        </div>
+        <div class="title">
+            <div class="card-body">
+                <div class="card-cost">150.000</div>
+                <div class="card-title">Gấu con đáng yêu</div>
+                <div class="d-flex justify-content-around">
+                    <span class="value">
+                        <img src="img/Eye.png" alt="">
+                        <span>111</span>
+                    </span>
+                    <span class="value">
+                        <img src="img/Eye.png" alt="">
+                        <span>344</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 </div>
 
@@ -277,126 +291,127 @@
 <footer>
     <div class="container">
         <div class="row m-0">
-        <div class="left col-lg-5 p-0">
-            <div id="title" >
-                <span>F</span>
-                <span>u</span>
-                <span>r</span>
-                <span
-                font-weight: bold;
-                span:first-child,span:last-child{
-                col>m</span>
-                <span>i</span>
+            <div class="left col-lg-5 p-0">
+                <div id="title" >
+                    <span>F</span>
+                    <span>u</span>
+                    <span>r</span>
+                    <span
+                    font-weight: bold;
+                    span:first-child,span:last-child{
+                    col>m</span>
+                    <span>i</span>
+                </div>
+                <div class="Tree-footer"><span>Trang chủ</span>
+                    <span>/</span>
+                    <span>Giới thiệu</span>
+                    <span>/</span>
+                    <span>Thông báo</span>
+                    <span>/</span>
+                    <span>Liên hệ</span>
+                </div>
+                <hr>
+                <div class="addr">
+                    <div>
+                        <a href="" class="fa fa-map-marker"></a>
+                        <span>Tầng 3, toàn nhà HC, 102 Thái Thịnh, Đống Đa, Hà Nội</span>
+                    </div>
+
+                    <div>
+                        <a href="" class="fa fa-phone" ></a>
+                        <span>(+84)439352690</span>
+                        <a href="" class="fa fa-envelope" ></a>
+                        <span>trading@Furmi.com.vn</span>
+                    </div>
+                </div>
+                <hr>
+                <span class="copyright mr-4">
+                    Copyright 2016. Furmi All Rights Reversed.
+                </span>
+                <span class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-linkedin"></i>            
+                </span>
             </div>
-            <div class="Tree-footer"><span>Trang chủ</span>
-                <span>/</span>
-                <span>Giới thiệu</span>
-                <span>/</span>
-                <span>Thông báo</span>
-                <span>/</span>
-                <span>Liên hệ</span>
+            <div class="right col-lg-6 offset-lg-1 p-0 ">
+                <div class="row m-0 d-flex justify-content-end">
+                   <div class="category col-lg-3">
+                    <div class="box">
+                        <div class="main"><a href="">NỘI THẤT</a></div>
+                        <div class="item"><a href="">Bàn ghế</a></div>
+                        <div class="item"><a href="">Tủ chén</a></div>
+                        <div class="item"><a href="">Đèn đường</a></div>
+                    </div>
+                    <div class="box">
+                        <div class="main"><a href="">NGOẠI THẤT</a></div>
+                        <div class="item"><a href="">Bàn ghế</a></div>
+                        <div class="item"><a href="">Tủ chén</a></div>
+                        <div class="item"><a href="">Đèn đường</a></div>
+                    </div>
+                </div>
+                <div class="category col-lg-3">
+                    <div class="box">
+                        <div class="main"><a href="">PHÒNG ĂN</a></div>
+                        <div class="item"><a href="">Bàn ghế</a></div>
+                        <div class="item"><a href="">Tủ chén</a></div>
+                        <div class="item"><a href="">Đèn đường</a></div>
+                        <div class="item"><a href="">Đèn đường</a></div>
+                    </div>
+                    <div class="box">
+                        <div class="main"><a href="">PHÒNG TẮM</a></div>
+                        <div class="item"><a href="">Bàn ghế</a></div>
+                        <div class="item"><a href="">Tủ chén</a></div>
+                        <div class="item"><a href="">Đèn đường</a></div>
+                    </div>
+
+
+                </div>
+                <div class="category col-lg-3">
+                    <div class="box">
+                        <div class="main"><a href="">BỂ BƠI</a></div>
+                        <div class="item"><a href="">Bàn ghế</a></div>
+                        <div class="item"><a href="">Tủ chén</a></div>
+                        <div class="item"><a href="">Đèn đường</a></div>
+                    </div>
+                    <div class="box">
+                        <div class="main"><a href="">VĂN PHÒNG</a></div>
+                        <div class="item"><a href="">Bàn ghế</a></div>
+                        <div class="item"><a href="">Tủ chén</a></div>
+                        <div class="item"><a href="">Đèn đường</a></div>
+                    </div>
+
+
+                </div>
+                <div class="category col-lg-3">
+                    <div class="box">
+                        <div class="main"><a href="">CỬA HÀNG</a></div>
+                        <div class="item"><a href="">Bàn ghế</a></div>
+                        <div class="item"><a href="">Tủ chén</a></div>
+                        <div class="item"><a href="">Đèn đường</a></div>
+                    </div>
+                    <div class="box">
+                        <div class="main"><a href="">ĐỒ VẶT</a></div>
+                        <div class="item"><a href="">Bàn ghế</a></div>
+                        <div class="item"><a href="">Tủ chén</a></div>
+                        <div class="item"><a href="">Đèn đường</a></div>
+                    </div>
+
+
+                </div> 
             </div>
-            <hr>
-            <div class="addr">
-            <div>
-                <a href="" class="fa fa-map-marker"></a>
-                <span>Tầng 3, toàn nhà HC, 102 Thái Thịnh, Đống Đa, Hà Nội</span>
-            </div>
-            
-            <div>
-                <a href="" class="fa fa-phone float-left" ></a>
-            <span>(+84)439352690</span>
-            <a href="" class="fa fa-envelope" ></a>
-            <span>trading@Furmi.com.vn</span>
-            </div>
-            </div>
-            <hr>
-            <span class="copyright">
-                Copyright 2016. Furmi All Rights Reversed.
-            </span>
-            <span class="social">
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-twitter"></i>
-                <i class="fa fa-google"></i>
-                <i class="fa fa-youtube"></i>
-                <i class="fa fa-linkedin"></i>            
-            </span>
+
         </div>
-        <div class="right col-lg-6 offset-lg-1 p-0 ">
-            <div class="row mr-0 justify-content-end">
-             <div class="category col-lg-3">
-                <div class="box">
-                    <div class="main"><a href="">NỘI THẤT</a></div>
-                    <div class="item"><a href="">Bàn ghế</a></div>
-                    <div class="item"><a href="">Tủ chén</a></div>
-                    <div class="item"><a href="">Đèn đường</a></div>
-                </div>
-                <div class="box">
-                    <div class="main"><a href="">NGOẠI THẤT</a></div>
-                    <div class="item"><a href="">Bàn ghế</a></div>
-                    <div class="item"><a href="">Tủ chén</a></div>
-                    <div class="item"><a href="">Đèn đường</a></div>
-                </div>
-            </div>
-            <div class="category col-lg-3">
-                <div class="box">
-                    <div class="main"><a href="">PHÒNG ĂN</a></div>
-                    <div class="item"><a href="">Bàn ghế</a></div>
-                    <div class="item"><a href="">Tủ chén</a></div>
-                    <div class="item"><a href="">Đèn đường</a></div>
-                    <div class="item"><a href="">Đèn đường</a></div>
-                </div>
-                <div class="box">
-                    <div class="main"><a href="">PHÒNG TẮM</a></div>
-                    <div class="item"><a href="">Bàn ghế</a></div>
-                    <div class="item"><a href="">Tủ chén</a></div>
-                    <div class="item"><a href="">Đèn đường</a></div>
-                </div>
-
-
-            </div>
-            <div class="category col-lg-3">
-                <div class="box">
-                    <div class="main"><a href="">BỂ BƠI</a></div>
-                    <div class="item"><a href="">Bàn ghế</a></div>
-                    <div class="item"><a href="">Tủ chén</a></div>
-                    <div class="item"><a href="">Đèn đường</a></div>
-                </div>
-                <div class="box">
-                    <div class="main"><a href="">VĂN PHÒNG</a></div>
-                    <div class="item"><a href="">Bàn ghế</a></div>
-                    <div class="item"><a href="">Tủ chén</a></div>
-                    <div class="item"><a href="">Đèn đường</a></div>
-                </div>
-
-
-            </div>
-            <div class="category col-lg-3">
-                <div class="box">
-                    <div class="main"><a href="">CỬA HÀNG</a></div>
-                    <div class="item"><a href="">Bàn ghế</a></div>
-                    <div class="item"><a href="">Tủ chén</a></div>
-                    <div class="item"><a href="">Đèn đường</a></div>
-                </div>
-                <div class="box">
-                    <div class="main"><a href="">ĐỒ VẶT</a></div>
-                    <div class="item"><a href="">Bàn ghế</a></div>
-                    <div class="item"><a href="">Tủ chén</a></div>
-                    <div class="item"><a href="">Đèn đường</a></div>
-                </div>
-
-
-            </div> 
-        </div>
-        
     </div>
 </div>
-    </div>
-    
+
 
 </footer>
+<script src="js/bootstrap/popper.min.js"></script>
 <script src="js/jquery/jquery-2.2.4.min.js"></script>
 <script src="js/bootstrap/bootstrap.min.js"></script>
-<script src="js/bootstrap/popper.min.js"></script>
+
 </body>
 </html>

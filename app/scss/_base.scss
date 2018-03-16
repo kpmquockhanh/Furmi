@@ -5,12 +5,7 @@
     outline: none;
 }
 body{
-    /*padding: 50px;*/
     min-width: 530px;
-}
-.jumbotron{
-    margin-bottom: 0rem;
-    padding-bottom: 0rem;
 }
 header{
     #title{
@@ -21,7 +16,6 @@ header{
             color: $primary-red;
         }
     }
-
     .btn-outline-danger{
         color: $primary-red;
         border-color: $primary-red;
@@ -29,8 +23,6 @@ header{
             background-color: $primary-red;
         }
     }
-
-
 }
 #search{
     border-bottom: .01rem solid #dddddd;
@@ -44,26 +36,17 @@ header{
         position: absolute;
         right: 0px;
     }
-    
 }
 ul#menu{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 0px;
     li{
-        display: inline-block;
-        text-align: center;
-        padding-right: 2.5rem;
-        &:last-child{
+        /*padding-right: 2.5rem;*/
+        /*&:last-child{
             padding-right: 0rem;
-        }
+        }*/
         hr{
             position: relative;
             height: .05em;
             top: -.7rem;
-            background-color: $primary-red;
             background-color: white;
             color: white;
             border: none;
@@ -75,15 +58,12 @@ ul#menu{
             color:#333333;
             line-height: 3rem;
             text-decoration: none;
-            /*box-sizing: border-box;*/
             display: block;
             font-weight: 800;
-            /*border-bottom: .2rem solid white;*/
             &:hover + hr{
                 color:$primary-red;
                 border-bottom: .2rem solid red;
             }
-            
         }
         &.active{
             &>hr{
@@ -130,8 +110,6 @@ ul#menu{
                 margin-bottom:.5rem;
             }
             li:last-child,li:first-child{
-                /*color: $primary-red;*/
-                
                 font-size: 1rem;
                 font-weight: bold;
                 background-color: $gray;
@@ -141,14 +119,7 @@ ul#menu{
             
         }
         .img-content{
-
-            /*justify-content: flex-start;*/
             width: 100%;
-            /*padding-right: 3rem;
-            padding-left: 3rem;
-            padding-top: 8rem;
-            padding-bottom: 8rem;
-            margin-left: -3rem;*/
         }
         #zoom{
             width: 1rem;
@@ -162,10 +133,7 @@ ul#menu{
     
     .left-content{
         overflow: hidden;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
+        padding: 2rem 2.5rem;
         background-color: white;
         border-left: 1px solid $gray;
         .name{
@@ -175,15 +143,11 @@ ul#menu{
             padding-left: 1rem;
             font-size: .8rem;
             font-weight: bold;
-            /*background-color: red;*/
         }
         .quote{
             margin-top: 1rem;
             font-size: .85rem;
             color: $gray-bold;
-        }
-        #info{
-            margin-top: 1rem;
         }
         .statistics{
             font-weight: bold;
@@ -192,9 +156,7 @@ ul#menu{
             border-right: 0;
             border-left: 0;
             .com{
-                padding: 2rem;
-                padding-top: 1rem;
-                padding-bottom: 1rem;
+                padding: 1rem 2rem;
             }
             .com:first-child{
                 border-right: 1px solid $gray;
@@ -204,10 +166,8 @@ ul#menu{
             }
         }
         #cost{
-            /*font-weight: bold;*/
             font-size: 2rem;
-            margin-top: 1rem;
-            margin-bottom: 1rem;
+            margin: 1rem;
         }
         button.btn.btn-danger{
             height: 4rem;
@@ -222,38 +182,31 @@ ul#menu{
 }
 
 .tags{
-    /*margin-right: 15px;*/
-    margin-left: 2rem;
+    margin: 0rem 0rem 2rem 2rem;
     padding: 20px;
-    margin-bottom: 2rem;
     background-color: white;
     span{
         background-color: #f5f4f0;
         color: $primary-red;
         padding: 10px;
-        margin: 5px;
-        margin-left: 0px;
+        margin: 5px 5px 0 5px;
     }
 }
 .img{
     background-color: white;
     padding: 3rem;
-    /*margin-right: 15px;*/
     margin-left: 2rem;
 }
 .des{
     clear: both;
     background-color: white;
-    /*margin-left: 15px;*/
-    /*margin-right: -15px;*/
     margin-bottom: 2rem;
     .facebook-comments img{
         width: 100%;
-        margin-bottom: 3rem;
+        padding: 1rem 0 0 1rem;
     }
     .des-title{
         font-size: 1.5rem;
-        /*font-weight: bold;*/
         margin-bottom: 1rem;
     }
     .des-content{
@@ -262,30 +215,24 @@ ul#menu{
 }
 #related{
     padding-bottom: 5rem;
-
-    .title{
+    .title-related{
         font-size: 2rem;
-        /*font-weight: bold;*/
-        /*margin-left: -15px;*/
-        
+        border-bottom: .1rem solid $gray;
     }
     hr{
-        /*margin-left: -15px;*/
         &.red{
-            background-color: red;
-            width: 3rem;
-            height: .2rem;
-            position: absolute;
+            background-color: $primary-red;
             z-index: 1000;
-            top: -1.2rem;
+            height: .3rem;
+            width: 3rem;
+            border: none;
+            margin-bottom: 2rem;
+            position: relative;
+            top: -.3rem;
         }
-        
     }
-    
     .card-img-top{
-        width: 100%;
         padding: 1rem;
-
     }
     .free{
         color: $primary-red;
@@ -306,25 +253,25 @@ ul#menu{
                 color: $primary-pink;
             }
         }
-
-    }
-    .img-card{
-        height: 15rem;
-    }
-    .card{
-        margin-right: 2rem;
-        .value{
-            font-size: 1rem;
+        .img-card{
+            height: 15rem;
         }
-        
-    }
-    .card:last-child{
-        margin-right: 0rem;
+        .card{
+            margin-right: 2rem;
+            .value{
+                font-size: 1rem;
+            }
+            .title{
+                font-size: 1.2rem;
+            }
+        }
+        .card:last-child{
+            margin-right: 0rem;
+        }
     }
 }
 footer{
-    padding-bottom: 2rem;
-    padding-top: 3rem;
+    padding: 3rem 0 2rem 0 ;
     background-color: $primary-black;
     color: $gray-bold;
     .left{
@@ -340,11 +287,13 @@ footer{
             }
         }
         hr{
-            background-color: $gray-bold;
+            background-color: $gray2;
+            height: .05rem;
+            border: none;
+            margin:.5rem 0;
         }
         .Tree-footer{
-            margin-top: .1rem;
-            margin-bottom: .1rem;
+            margin:.1rem 0;
             span:first-child{
                 color: $gray;
             }
@@ -366,12 +315,8 @@ footer{
                 margin-top: 1.5rem;
             }
         }
-        span.copyright{
-            /*margin-right: 2rem;*/
-        }
         .social i{
-            margin-left: .3rem;
-            /*margin-right: .3rem;*/
+            margin:0 .3rem;
             font-size: 1rem;
         }
     }
@@ -395,13 +340,9 @@ footer{
         }
         .category:last-child{
             padding-right: 0rem;
-        }
-        
+        }   
     }
-
 }
-
-
 
 /*Responsive custom*/
 @media screen and (max-width: 991.9px){
@@ -409,16 +350,11 @@ footer{
         display: flex;
         justify-content: center;
         margin-top: 2rem;
-        /*margin-top: 3rem;*/
-        /*background-color: red;*/
         li:last-child,li:first-child{
             transform: rotate(-90deg);
         }
     }
-    .tags{
-        margin-left: 0rem;
-    }
-    .img{
+    .tags,.img{
         margin-left: 0rem;
     }
     #related{
@@ -428,16 +364,13 @@ footer{
         display: none;
     }
     ul#menu{
-
-   
-    justify-content: flex-start;
+        justify-content: flex-start;
         li{
-        padding-right: 0rem;
-        hr{
-            
-            display: none;
-        }   
-    }
+            padding-right: 0rem;
+            hr{
+                display: none;
+            }   
+        }
     }
     .btn-outline-danger{
         width: 100%;
