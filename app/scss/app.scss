@@ -9,8 +9,8 @@
 @import "mixins/badge";
 @import "mixins/resize";
 // @import "mixins/screen-reader";
-@import "mixins/size";
-@import "mixins/reset-text";
+// @import "mixins/size";
+// @import "mixins/reset-text";
 @import "mixins/text-emphasis";
 @import "mixins/text-hide";
 @import "mixins/text-truncate";
@@ -21,14 +21,14 @@
 @import "mixins/buttons";
 // @import "mixins/caret";
 // @import "mixins/pagination";
-@import "mixins/lists";
+// @import "mixins/lists";
 @import "mixins/list-group";
-@import "mixins/nav-divider";
+// @import "mixins/nav-divider";
 // @import "mixins/forms";
 // @import "mixins/table-row";
 
 // // Skins
-@import "mixins/background-variant";
+// @import "mixins/background-variant";
 @import "mixins/border-radius";
 @import "mixins/box-shadow";
 @import "mixins/gradients";
@@ -51,7 +51,7 @@
 // @import "tables";
 // @import "forms";
 @import "buttons";
-// @import "transitions";
+@import "transitions";
 // @import "dropdown";
 // @import "button-group";
 // @import "input-group";
@@ -64,7 +64,7 @@
 @import "badge";
 @import "jumbotron";
 // @import "alert";
-@import "progress";
+// @import "progress";
 // @import "media";
 @import "list-group";
 @import "close";
@@ -91,5 +91,5 @@
 // @import "utilities/visibility";
 
 // ---------
-@import "print";
+// @import "print";
 @import "base";
