@@ -1,3 +1,4 @@
+
 *{
     margin: 0px;
     padding: 0px;
@@ -40,37 +41,41 @@ header{
 }
 ul#menu{
     li{
+    hr{
+        position: relative;
+        height: .2em;
+        top: -.7rem;
+        background-color: white;
+        color: white;
+        border: none;
+        width: 0%;
+        margin: auto;
+        transition: all .5s;
+    }   
+    a{
+        color:#333333;
+        line-height: 3rem;
+        text-decoration: none;
+        font-weight: 800;
+
+    }
+    &:hover{
+
         hr{
-            position: relative;
-            height: .2em;
-            top: -.7rem;
-            background-color: white;
-            color: white;
-            border: none;
-            width: 0%;
-            margin: auto;
-            transition: all .5s;
-        }   
-        a{
-            color:#333333;
-            line-height: 3rem;
-            text-decoration: none;
-            font-weight: 800;
-            
+            color:$primary-red;
+            background-color: $primary-red;
+            width: 80%;
         }
-        &:hover>hr{
-                color:$primary-red;
-                background-color: $primary-red;
-                width: 80%;
-        }
-        &.active{
-            &>hr{
-                width: 80%;
-                color:$primary-red;
-                background-color: $primary-red;
-            }
+
+    }
+    &.active{
+        &>hr{
+            width: 80%;
+            color:$primary-red;
+            background-color: $primary-red;
         }
     }
+}
 }
 #banner{
     background-color: $primary-red;
@@ -86,15 +91,18 @@ ul#menu{
     }
 }
 #content{
+
     #lightbox{
-        margin-left: 0;
-        background-color: white;
-        overflow: hidden;
-        ul{
-            list-style: none;
-            li{
-                width: 4rem;
-                height: 4rem;
+
+
+    margin-left: 0;
+    background-color: white;
+    overflow: hidden;
+    ul{
+        list-style: none;
+        li{
+            width: 4rem;
+            height: 4rem;
                 /*background-color: blue;*/
                 img{
                     width: 3rem;
@@ -132,56 +140,60 @@ ul#menu{
         position: relative;
     }
     .left-content{
-        overflow: hidden;
-        padding: 2rem 2.5rem;
-        background-color: white;
-        border-left: 1px solid $gray;
-        .name{
-            display: flex;
-            align-items: center;
-            height: 40px;
-            padding-left: 1rem;
-            font-size: .8rem;
-            font-weight: bold;
+
+    overflow: hidden;
+    padding: 2rem 2.5rem;
+    background-color: white;
+    border-left: 1px solid $gray;
+    .name{
+        display: flex;
+        align-items: center;
+        height: 40px;
+        padding-left: 1rem;
+        font-size: .8rem;
+        font-weight: bold;
+    }
+    .quote{
+        margin-top: 1rem;
+        font-size: .85rem;
+        color: $gray-bold;
+    }
+    .statistics{
+        font-weight: bold;
+        margin-top: 3rem;
+        border: 1px solid $gray;
+        border-right: 0;
+        border-left: 0;
+        .com{
+            padding: 1rem 2rem;
         }
-        .quote{
-            margin-top: 1rem;
-            font-size: .85rem;
-            color: $gray-bold;
+        .com:first-child{
+            border-right: 1px solid $gray;
         }
-        .statistics{
-            font-weight: bold;
-            margin-top: 3rem;
-            border: 1px solid $gray;
-            border-right: 0;
-            border-left: 0;
-            .com{
-                padding: 1rem 2rem;
-            }
-            .com:first-child{
-                border-right: 1px solid $gray;
-            }
-            .com:last-child{
-                border-left: 1px solid $gray;
-            }
-        }
-        #cost{
-            font-size: 2rem;
-            margin: 1rem;
-        }
-        button.btn.btn-danger{
-            height: 4rem;
-            width: 100%;
-            font-size: 1.2rem;
-        }
-        .btn.btn-danger{
-            border-radius: 0rem;
-            background-color: $primary-red;
+        .com:last-child{
+            border-left: 1px solid $gray;
         }
     }
+    #cost{
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    button.btn.btn-danger{
+
+        border-radius: 0rem;
+        background-color: $primary-red;
+        height: 4rem;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
 }
 
-.tags{
+.tags{ 
+
+    
+
+    cursor: pointer;
     margin: 0rem 0rem 2rem 2rem;
     padding: 20px;
     background-color: white;

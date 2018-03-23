@@ -7,7 +7,7 @@
 @import "mixins/hover";
 // @import "mixins/image";
 @import "mixins/badge";
-@import "mixins/resize";
+// @import "mixins/resize";
 // @import "mixins/screen-reader";
 // @import "mixins/size";
 // @import "mixins/reset-text";
@@ -66,8 +66,8 @@
 // @import "alert";
 // @import "progress";
 // @import "media";
-@import "list-group";
-@import "close";
+// @import "list-group";
+// @import "close";
 // @import "modal";
 // @import "tooltip";
 // @import "popover";
@@ -93,3 +93,4 @@
 // ---------
 // @import "print";
 @import "base";
+@import "animate";
