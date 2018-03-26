@@ -7,8 +7,11 @@ Thực hiện bởi [Lưu Quốc Khánh](https://github.com/kpmquockhanh)
 
 ## Liên kết
 
+
 - [Đề bài]( https://docs.google.com/spreadsheets/d/1AcPRWhkGZsbpEEnysr7i6qq9YZHvAOyGe_X_DFYu2TE/edit#gid=0)
 
+- [Tài liệu](https://drive.google.com/open?id=1aEbSVy79jNcjpLDsYMB7KxtZrg05-lG_)
+- [Draw.io](https://drive.google.com/file/d/1oYErTBCNejBZ4Fd5vXWstKSs2bPg1cR0/view?usp=sharing)
 - [Bài làm](https://kpmquockhanh.github.io/Furmi/app)
 
 ## Hướng dẫn cài đặt test/sử dụng nếu có
