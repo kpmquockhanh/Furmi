@@ -98,14 +98,23 @@ ul#menu{
     margin-left: 0;
     background-color: white;
     overflow: hidden;
+    .next,.prev{
+        background-color: $gray;
+        height: 2rem;
+        cursor: pointer;
+    }
     ul{
+        height: 288px;
+        overflow-y: hidden;
         list-style: none;
         li{
             width: 4rem;
             height: 4rem;
+            width: 100%;
+            padding: .5rem;
                 /*background-color: blue;*/
                 img{
-                    width: 3rem;
+                    width: 100%;
                 }
                 display: flex;
                 align-items: center;
@@ -117,15 +126,8 @@ ul#menu{
                 &:hover{
                     border: 2px solid $primary-red;
                 }
-                &:first-child:hover,&:last-child:hover{
-                    border: none;
-                }
                 margin-bottom:.5rem;
             }
-            li:last-child,li:first-child{
-                background-color: $gray;
-                height: 2rem;
-            }  
         }
         .img-content{
             width: 100%;

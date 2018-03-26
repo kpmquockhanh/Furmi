@@ -8,6 +8,7 @@
     <!-- <link rel="stylesheet" href="js/jquery/jquery-2.2.4.min.js"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
     <!-- Custom style -->
+
     <link rel="stylesheet" href="css/app.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <div id="fb-root"></div>
@@ -25,7 +26,7 @@
 </head>
 <body>
     <header>
-        <div class="container pt-4 pb-4">
+        <div class="container pt-4 pb-4 p-0">
           <div class="row m-0">
             <div id="search" class="col-lg-3 order-1 order-lg-first p-0 my-3 my-lg-0">
                 <div class="row m-0">
@@ -84,10 +85,9 @@
             </ul>
         </div>
     </div>
-
 </nav>
 <section id="banner" class="d-flex justify-content-center align-items-center">
-    <div class="boxtitle container">
+    <div class="boxtitle container p-0">
         <div class="title text-uppercase">oto bmw i8 phiên bản mới</div>
         <div class="tree text-uppercase mt-4">trang chủ/ model/ nội thất/ oto bmw i8 phiên bản mới</div>
     </div>  
@@ -95,18 +95,28 @@
 <section id="content" class="jumbotron m-0 pb-0">
     <div class="container p-0">
         <div class="row m-0">
-            <div id="lightbox" class="dflex align-items-center col-lg-8 row m-0">
-                <ul class="list col-lg-2 align-items-center align-self-center">
-                    <!-- list img -->
-                    <li class="fa fa-angle-up"></li>
-                    <!-- 79x67 -->
-                    <li class="active"><img src="img/Layer 13.png" alt=""></li>
-                    <li><img src="img/Layer 13.png" alt=""></li>
-                    <li><img src="img/Layer 13.png" alt=""></li>
-                    <li><img src="img/Layer 13.png" alt=""></li>
-                    <li class="fa fa-angle-down"></li>
+            <div id="lightbox" class="d-flex align-items-center col-lg-8 row m-0">
+                <div class="listitems col-lg-2">
+                    <a class="fa fa-angle-up d-flex align-items-center justify-content-center prev"></a>
+                <ul class="list m-0 d-block">
+                    <li class="active"><img src="img/car/car-red.png" alt=""></li>
+                    <li><img src="img/car/car-red.png" alt=""></li>
+                    <li><img src="img/car/car-red.png" alt=""></li>
+                    <li><img src="img/car/car-red.png" alt=""></li>
+                    <li><img src="img/car/car-red.png" alt=""></li>
+                    <li><img src="img/car/car-red.png" alt=""></li>
+                    <li><img src="img/car/car-red.png" alt=""></li>
+                    <li><img src="img/car/car-red.png" alt=""></li>
+                    <li><img src="img/car/car-red.png" alt=""></li>
+                    <li><img src="img/car/car-red.png" alt=""></li>
+
                 </ul>
-                <img src="img/Layer 2.png" alt="" class="img-content col-lg-10 ">
+                    <a class="fa fa-angle-down d-flex align-items-center justify-content-center next"></a>
+                </div>
+
+            
+
+                <img src="img/car/car-green.png" alt="" class="img-content col-lg-10">
                 <img src="img/Layer 7.png" alt="" id="zoom">
             </div>
             <div class="left-content col-lg-4">
@@ -289,7 +299,7 @@
 </section>
 
 <footer>
-    <div class="container">
+    <div class="container p-0">
         <div class="row m-0">
             <div class="left col-lg-5 p-0">
                 <div id="title" >
@@ -409,9 +419,10 @@
 
 
 </footer>
-<script src="js/bootstrap/popper.min.js"></script>
-<script src="js/jquery/jquery-2.2.4.min.js"></script>
-<script src="js/bootstrap/bootstrap.min.js"></script>
 
+<script src="js/bootstrap/popper.min.js"></script>
+<script src="js/jquery/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>
