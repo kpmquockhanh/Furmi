@@ -91,8 +91,11 @@ ul#menu{
         font-size: .65rem;
     }
 }
+.con{
+    padding-top: 40px;
+}
 #content{
-
+    padding-top: 80px;
     #lightbox{
 
 
@@ -105,7 +108,7 @@ ul#menu{
         cursor: pointer;
     }
     ul{
-        height: 288px;
+        height: 296px;
         overflow-y: hidden;
         list-style: none;
         li{
@@ -128,6 +131,7 @@ ul#menu{
                     border: 2px solid $primary-red;
                 }
                 margin-bottom:.5rem;
+                margin-top: .5rem;
             }
         }
         .img-content{
