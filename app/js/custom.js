@@ -31,3 +31,7 @@ $('.prev').click(function(event) {
     // console.log(currentpos);
 });
 });
+$('.list li img').click(function(event) {
+    // alert($(this).attr('target'));
+    $('.img-content').attr('src',$(this).attr('target'));
+});

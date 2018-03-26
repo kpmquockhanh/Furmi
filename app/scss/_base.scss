@@ -27,11 +27,12 @@ header{
     }
 }
 #search{
-    border-bottom: .01rem solid #dddddd;
+    
     input{
         border: none;
         display: block;
         float: left;
+        border-bottom: .01rem solid #dddddd;
     }
     img{
         height: 40%;
@@ -42,9 +43,9 @@ header{
 ul#menu{
     li{
     hr{
-        position: relative;
+        // position: relative;
         height: .2em;
-        top: -.7rem;
+        // top: -.7rem;
         background-color: white;
         color: white;
         border: none;
@@ -192,9 +193,6 @@ ul#menu{
 }
 
 .tags{ 
-
-    
-
     cursor: pointer;
     margin: 0rem 0rem 2rem 2rem;
     padding: 20px;
@@ -203,7 +201,7 @@ ul#menu{
         background-color: #f5f4f0;
         color: $primary-red;
         padding: 10px;
-        margin: 5px 5px 0 5px;
+        margin: 5px;
     }
 }
 .img{
@@ -215,6 +213,11 @@ ul#menu{
     clear: both;
     background-color: white;
     margin-bottom: 2rem;
+    hr{
+        background-color: $gray;
+        height: .1rem;
+        border: none;
+    }
     .facebook-comments img{
         width: 100%;
         padding: 1rem 0 0 1rem;
@@ -228,7 +231,7 @@ ul#menu{
     }
 }
 #related{
-    padding-bottom: 5rem;
+    padding-bottom: 7rem !important;
     .title-related{
         font-size: 2rem;
         border-bottom: .1rem solid $gray;
