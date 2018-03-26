@@ -34,4 +34,13 @@ $('.prev').click(function(event) {
 $('.list li img').click(function(event) {
     // alert($(this).attr('target'));
     $('.img-content').attr('src',$(this).attr('target'));
+    // $('.list li').removeClass('active');
+    $(this).addClass('active');
+
+});
+$('.list li').click(function(event) {
+    
+    $('.list li').removeClass('active');
+    $(this).addClass('active');
+
 });

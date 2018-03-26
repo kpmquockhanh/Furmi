@@ -109,7 +109,7 @@ ul#menu{
     }
     ul{
         height: 296px;
-        overflow-y: hidden;
+        overflow: hidden;
         list-style: none;
         li{
             width: 4rem;
@@ -365,13 +365,22 @@ footer{
 
 /*Responsive custom*/
 @media screen and (max-width: 991.9px){
-    #content #lightbox ul{
-        display: flex;
-        justify-content: center;
-        margin-top: 2rem;
-        li:last-child,li:first-child{
+    #content #lightbox{
+        .listitems{
             transform: rotate(-90deg);
+            width: 15%;
+            margin:auto;
         }
+        ul{
+        // li:last-child,li:first-child{
+        //     transform: rotate(-90deg);
+        // }
+        li{
+            img{
+                transform: rotate(90deg);
+            }
+        }
+    }
     }
     .tags,.img{
         margin-left: 0rem;
